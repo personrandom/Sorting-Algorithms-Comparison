@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class Project6 {
+public class SortingComparison {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
