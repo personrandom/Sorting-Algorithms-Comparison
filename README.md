@@ -5,7 +5,6 @@ Compares heap sort, insertion sort, merge sort, quick sort, and selection sort r
 
 The program reads data from a text file via standard input. It works with any custom input as long as it follows this format:
 
-    ```text
     NumElements
     Element 1
     Element 2
