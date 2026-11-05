@@ -20,3 +20,5 @@ The program reads data from a text file via standard input. It works with any cu
 2. Run the program using one of the 3 input files:
     ```bash
    java SortingComparison < input_1000.txt
+
+Note: There is a helper python program to create custom inputs.
