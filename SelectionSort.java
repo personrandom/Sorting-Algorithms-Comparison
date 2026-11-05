@@ -3,7 +3,7 @@
 public class SelectionSort {
     
     private String[] words;
-    private int comparisons;
+    private long comparisons;
 
     //constructor
     public SelectionSort(String[] arr){
@@ -31,7 +31,7 @@ public class SelectionSort {
     }
     
     //returns # comparisons
-    public int comparisons(){
+    public long comparisons(){
         return comparisons;
     }
 }//End of class

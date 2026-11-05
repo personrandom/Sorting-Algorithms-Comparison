@@ -3,7 +3,7 @@
 public class InsertionSort {
     
     private String[] words;
-    private int comparisons;
+    private long comparisons;
 
     //constructor
     public InsertionSort(String[] arr){
@@ -31,7 +31,7 @@ public class InsertionSort {
     }
 
     //returns # comparisons
-    public int comparisons(){
+    public long comparisons(){
         return comparisons;
     }
 }//End of class

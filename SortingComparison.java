@@ -26,7 +26,7 @@ public class SortingComparison {
         s.sort();
         long endTime = System.currentTimeMillis();
         long selectionTime = endTime-startTime;
-        int selectionComp = s.comparisons();
+        long selectionComp = s.comparisons();
 
         //Insertion Sort
         InsertionSort i = new InsertionSort(iWords);
@@ -34,7 +34,7 @@ public class SortingComparison {
         i.sort();
         long endTime2 = System.currentTimeMillis();
         long insertionTime = endTime2-startTime2;
-        int insertionComp = i.comparisons();
+        long insertionComp = i.comparisons();
 
         //Heapsort
         HeapSort h = new HeapSort(hWords, size);
@@ -42,7 +42,7 @@ public class SortingComparison {
         h.sort();
         long endTime3 = System.currentTimeMillis();
         long heapTime = endTime3-startTime3;
-        int heapComp = h.comparisons();
+        long heapComp = h.comparisons();
 
         //Merge Sort
         MergeSort m = new MergeSort(mWords);
@@ -50,7 +50,7 @@ public class SortingComparison {
         m.sort();
         long endTime4 = System.currentTimeMillis();
         long mergeTime = endTime4-startTime4;
-        int mergeComp = m.comparisons();
+        long mergeComp = m.comparisons();
 
         //Quicksort
         QuickSort q = new QuickSort(qWords);
@@ -58,7 +58,7 @@ public class SortingComparison {
         q.sort();
         long endTime5 = System.currentTimeMillis();
         long quickTime = endTime5-startTime5;
-        int quickComp = q.comparisons();
+        long quickComp = q.comparisons();
 
         //Output
         System.out.println("Algorithm       | Comparisons     | Time (Milliseconds)");

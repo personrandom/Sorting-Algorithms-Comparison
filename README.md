@@ -17,6 +17,6 @@ The program reads data from a text file via standard input. It works with any cu
     ```bash
    javac *.java
 
-2. Run the program using the input file:
+2. Run the program using one of the 3 input files:
     ```bash
-   java SortingComparison < input.txt
+   java SortingComparison < input_1000.txt
